@@ -2,33 +2,22 @@
 
 This is a simple Spring Boot application.
 
-## Home page
+## Available endpoints
 
+### Home page (HTML view)
 
+http://localhost:8080/
 
+Displays an HTML page rendered with Thymeleaf.
 
+### Text endpoint
 
-![Home page](https://raw.githubusercontent.com/DaniyarTolubaev/first-project-java-spring/main/screenshots/home-page.png)
+http://localhost:8080/text
 
+Returns plain text response.
 
-
-
-
-
-## Text endpoint
-
-
-
-
-
-
-
-![Text endpoint](https://raw.githubusercontent.com/DaniyarTolubaev/first-project-java-spring/main/screenshots/text-endpoint.png)
-
-
-
-
-
+## How to run
+Run the application and open the URLs in a browser.
 
 ## Status
 Task 1 completed.
